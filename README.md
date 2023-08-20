@@ -1,6 +1,7 @@
 # Flipkart_Grid
 ## Approach 1:With locally imported open source LLM model 
 Here's an overview of the approach and key components which we have used:
+
 1.Document Loading:
 The code first defines a set of document loaders for various file types (e.g., CSV, PDF, HTML, TXT). These loaders are responsible for extracting text content from different document formats.
 
@@ -28,6 +29,7 @@ Once the process is complete, the vector store is persisted, and the code provid
 
 ## Approach 2:With online AI apps LLM models like stackAI:
 Here's an overview of the approach and key components which we have used:
+
 1.Document uploading:
  Upload the documents like rules.txt and opensshlogs.txt file in the document file upload node.
 
