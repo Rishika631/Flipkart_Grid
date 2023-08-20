@@ -19,7 +19,6 @@ Main Function:
 The main function orchestrates the entire process. It first checks if a vector store already exists. If it does, it appends new documents; otherwise, it creates a new vector store.
 The documents are split, embedded, and added to the vector store.
 Once the process is complete, the vector store is persisted, and the code provides a message indicating that the ingestion is complete and that users can run queries for finding logs with anomalies in it.
-![image](https://github.com/Rishika631/Flipkart_Grid/assets/89201634/05d76257-0289-42ac-953d-fe8d716755ad)
 
 Approach 2:With online AI apps LLM models like stackAI:
 Here's an overview of the approach and key components which we have used:
@@ -34,5 +33,6 @@ Providing input prompt:
 
 4.Output:
  Get the output as all the logs which are anomaly with remedies to be taken and what IP address to keep in check.
-![image](https://github.com/Rishika631/Flipkart_Grid/assets/89201634/7cf7c247-8460-4124-bbc1-4e40af1f9158)
+
+![image](https://github.com/Rishika631/Flipkart_Grid/assets/89201634/9b08c370-6c8d-45e9-b6db-e07372f52f85)
 
