@@ -27,6 +27,9 @@ The main function orchestrates the entire process. It first checks if a vector s
 The documents are split, embedded, and added to the vector store.
 Once the process is complete, the vector store is persisted, and the code provides a message indicating that the ingestion is complete and that users can run queries for finding logs with anomalies in it.
 
+![image](https://github.com/Rishika631/Flipkart_Grid/assets/89201634/3687179d-dc89-4525-acf0-7cf27af0c268)
+
+
 ## Approach 2:With online AI apps LLM models like stackAI:
 Here's an overview of the approach and key components which we have used:
 
