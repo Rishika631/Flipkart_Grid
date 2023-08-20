@@ -1,5 +1,5 @@
 # Flipkart_Grid
-Approach 1:With locally imported open source LLM model 
+## Approach 1:With locally imported open source LLM model 
 Here's an overview of the approach and key components which we have used:
 Document Loading:
 The code first defines a set of document loaders for various file types (e.g., CSV, PDF, HTML, TXT). These loaders are responsible for extracting text content from different document formats.
@@ -20,7 +20,7 @@ The main function orchestrates the entire process. It first checks if a vector s
 The documents are split, embedded, and added to the vector store.
 Once the process is complete, the vector store is persisted, and the code provides a message indicating that the ingestion is complete and that users can run queries for finding logs with anomalies in it.
 
-Approach 2:With online AI apps LLM models like stackAI:
+## Approach 2:With online AI apps LLM models like stackAI:
 Here's an overview of the approach and key components which we have used:
 Document uploading:
  Upload the documents like rules.txt and opensshlogs.txt file in the document file upload node.
